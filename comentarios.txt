@@ -1,0 +1,200 @@
+Linux
+
+Terminal
+    - O Terminal, shell ou console é uma linha de comando onde podemos executar programas específicos do Linux.
+    - A maioria dos comandos são iguais em diversas distribuições.
+    - Utilizado para automação de processos através dos comandos, facilita o trabalho no Sistema para Profissionais da Área.
+
+comandos
+    - comando pwd: (print working directory) é um comando que imprime o nome do diretório local em uma interface de linha de comando.
+    - comando ls: lista os arquivos de [diretório] - exemplo: ls aplicacao
+    - comando ls -l: lista detalhadamente os arquivos
+    - comando man ls: vai buscar e retornar a saida do manual do ls
+    - comando dir: lista os arquivos de [diretório] - exemplo: dir aplicacao
+    - comando cd: seu "diretório atual" passa a ser [diretório] - exemplo: cd aplicacao
+    - comando cd ..: retorna para o diretorio anterior
+    - comando mkdir: cria diretórios - exemplo: mkdir aplicacao
+    - comando history: lista todos os comandos utilizados pelo ubuntu
+    - comando mv: mover um diretorio ou arquivo/renomear um diretorio ou arquivo - exemplo: mv Teste Linux / mv Linux ~ / mv teste.txt linux.txt
+    - comando touch: cria um arquivo - exemplo: touch teste.txt
+    - comando cp: cria uma cópia do arquivo gerado - exemplo: cp teste.txt
+    - comando clear: limpar o terminal linux
+    - comando rmdir: remove um diretorio - exemplo: rmdir Linux
+    - comando rm: remove um arquivo - exemplo: rm teste.txt
+    - comando exit: sai do terminal
+    - comando nano: comando para editar arquivo no linux - exemplo: nano teste.txt
+    - comando cat: comando para mostrar o conteudo de um arquivo - exemplo: cat teste.txt
+    - comando tac: comando para mostrar o conteudo de um arquivo - exemplo: tac teste.txt
+    - comando tail: comando tail é utilizado para imprimir os últimos números N ou tails de uma entrada.
+    - comando grep: comando utilizado para busca de uma determinada palavra - exemplo: tail teste.txt | grep Ola
+
+############################################################################################################
+Engenharia de Dados
+
+O que são dados?
+
+    - números, textos, fatos, gráficos, medidas, observações, aúdios, vídeos
+
+Tipos de dados:
+    - estruturados: 
+        - formados especificos 
+        - estrutura rigida e previamente planejada
+        - cada campo tem um formato único
+
+    - não estruturados: 
+        - não tem uma estrutura rigida
+        - sem estrutura previamente planejada
+        - dados flexíveis e dinâmicos
+        - complexidade em consultas
+
+Desafio:
+    - Dados não estruturados
+    - Processamento necessário
+    - Visualização da Informação
+    - Privacidade dos dados
+
+Importancia:
+    - Maior precisão
+    - Decisões com mais confiança
+    - (+) eficiência operacional
+    - (-) custos
+    - (-) riscos
+
+Dados vs Informação:
+    - dados -> brutos - não organizados sem contexto
+    -   +
+    - processamento
+    -   =
+    - informação -> Com contexto Baseados em Negócio
+
+Cultura Data-driven:
+    - Uma abordagem "orientada a dados" significa tomar decisões estratégicas com base na análise e interpretação dos dados.
+
+Jornada do Engenheiro de dados | Tecnologias:
+    - Programação: - Python, Scala, R
+    - Automação Scripting: 
+        - Shell: cli
+        - Crontab: scheduling
+    - Banco de Dados: 
+        - Relacional:
+            - MySQL
+            - PostgreSQL
+            - Oracle 
+        - Não Relacional - NoSQL:
+            - MongoDB
+            - MariaDB
+    - Pipeline/ETL:
+        - Apache Spark
+        - Apache Spark Streaming
+        - Apache Kafka
+        - Apache Airflow
+    - Big Data:
+        - Data Lake
+        - Data Lakehouse
+        - Apache Hadoop
+        - MLOps
+    - Cloud Computing
+        - Google Cloud Platfom
+        - AWS
+        - Azure
+
+Como transformar dados em informação?
+    - Como aplicar AI/ML em dados errados?
+
+Principais falhas
+    - 85% dos projetos de Big Data falham (Gatner, 2017)
+    - 87% dos projetos de ciências de dados nunca chegam á produção (VentureBeat, 2019)
+    - "Até 2022, apenas 20% dos insigths analíticos entregarão resultados de negócios" (Gatner, 2019)
+    - Sem dados, sem projetos de ciencia de dados...
+        - Como você protege os dados?
+        - Os dados subjacentes são tendenciosos?
+        - Você pode usar os dados de maneira ética e legal para caso de uso pretendido?
+        - Você pode processar os dados de maneira oportuna e com custo adequado?
+        - Os dados estão limpos? (provalmente não, nesse caso...) Você pode limpar os dados?
+        - Você sabe os dados variam com o tempo?
+
+Engenharia de Dados
+    - A crescente diversidade de dados e a necessidade de fornecer os dados certos ás pessoas certas no momento certo criou uma demanda para a prática de engenharia de dados. Os líderes de dados devem integrar a disciplina de engenharia de dados em sua estratégia de gerenciamento de dados - GARTNER
+
+    - Engenharia de dados é uma área que trata da transformação dos dados brutos de uma empresa.
+
+    - Construir e manter os pipelines de dados da organização
+
+Transformando dados em informação - Engenharia de Dados
+    - 1° Coletar
+        - Coletar dados de sistemas transacionais
+        - redes sociais 
+        - outras fontes de dados
+    - 2° Armazenar
+        - Armazenar os dados que foram coletados para processamento futuro
+    - 3° Processar
+        - Aplicar regras de negócio e correlacionar dados para transformar dados em informação para o negócios
+    - 4° Consumir
+        - Consumir as informações geradas para suportar as decisões de negócio
+
+Pipeline:
+    - O que sãp pipelines de dados?
+    - Pipeline:
+        - 1° Collection - Coletada
+        - 2° Ingestion - Ingestação
+        - 3° Preparation - Preparação
+        - 4° Compution - Informática
+        - Presentation - Apresentação
+
+Alguns papeis
+    Engenheiro de dados:
+        - Desempenha um papel fundamental na construção e gerenciamento de pipelines de dados e na promoção de casos de uso de dados e análises para produção (em linha com os processos de negócios)
+
+    Arquiteto de dados:
+        - Planejamento do design da arquitetura de dados e construção do roadmap tecnológico alinhado aos objetivos de negócios
+    
+    Analista de dados:
+        - Responsável pela parte inicial do processo em Ciência de Dados, como coleta de dados, limpeza, organização, transformação de pré-processamento de dados
+
+    Cientista de dados:
+        - Esse é um perfil de análise. Não de programador. O Cientista de Dados analisa problemas e encontra soluções. Para isso emprega conhecimento em Estatística, Matemática, Machine Learning, Análise de Dados e conhecimento na área de negócio.
+
+DPO - Data Protection Officer
+    - Com a Lei Geral da Proteção de Dados (LGPD), o DPO também tornou um outro perfil de profissional especializado que atua com proteção de dados.
+
+    - Além de conhecer bem o processo de Ciência de Dados, o DPO precisa conhecer as leis de proteção aos dados, suas implicações, regulamentação e segurança.
+
+DataOPS
+    - Data:
+        - plan 
+        - code
+        - build
+        - test
+    - Ops:
+        - release
+        - deploy
+        - operate
+        - monitor
+
+    - É uma prática de gerenciamento de dados colaborativo focada em melhorar a comunicação, integração e automação de fluxos de dados entre gerenciadores de dados e consumidores de dados em uma organização.
+
+    - O objetivo do DataOps é entregar valor com mais rapidez, criando entrega previsível e gerenciamento de mudanças de dados, modelos de dados e artefatos relacionados.
+
+Data Observability
+    - É a capacidade de uma organização de compreender totalmente a integridade dos dados, eliminando o tempo de inatividade dos dados e aplicando as melhores práticas de observabilidade do DevOps aos pipelines de dados.
+    - Os dados estão atualizados?
+    - Os dados estão dentro de um intervalo aceito?
+    - O volume de dados está dentro do esperado?
+    - Mudança de esquema dos dados
+    - Caso ocorra alguma "quebra" de dados, quais processos são impactdos(linhagem)
+
+Estratégia de dados
+    - Estratégia de Negócio
+        - Planejamento estratégico de negócio
+    - Estratégia de Dados
+        - Estratégia de dados conectada a estratégia de negócio
+    - Alavanca de resultados de negócio e possibilita novas avenidas de negócio
+    - Qual sua estratégia de dados?
+
+Qual o papel do engenheiro de dados?
+    - Papel do engenheiro de Dados
+        - O aumento da quantidade de dados disponíveis e a demanda por cientistas de dados para analisá-los fez com qua a profissão de engenheiro de dados se tornasse essecial para as organizações
+
+    
+
+
